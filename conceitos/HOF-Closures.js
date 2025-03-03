@@ -24,6 +24,17 @@ function criarMultiplicador(fator) {
 const multiplicador2 = criarMultiplicador(2);
 const multiplicador5 = criarMultiplicador(5);
 
-
 console.log('Resultado de multiplicar por 4', multiplicador2(4));
 console.log('Resultado de multiplicar por 5', multiplicador5(3));
+
+// function concatenador(nome) {
+//   return function (sobrenome, ultimonome) {
+//     return nome + " " + sobrenome + " " + ultimonome;
+//   };
+// }
+
+// const concatenadorLucas = concatenador("Lucas");
+// const concatenadorDaniel = concatenador("Daniel");
+
+// console.log(concatenadorLucas("Silva" , "de Freitas"));
+// console.log(concatenadorDaniel("Silva" , "de Freitas"));
